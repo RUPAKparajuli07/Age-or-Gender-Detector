@@ -18,14 +18,20 @@ This Python script is designed to detect faces in images or via live webcam feed
 
 2. **Pre-trained Models**:
    - Face Detection Model:
-     - **Files**: `opencv_face_detector.pbtxt`, `opencv_face_detector_uint8.pb`
+     - **Files**: [opencv_face_detector.pbtxt](insert_drive_link_here), [opencv_face_detector_uint8.pb](insert_drive_link_here)
      - **Description**: Pre-trained deep learning model for face detection provided by OpenCV.
    - Age Estimation Model:
-     - **Files**: `age_deploy.prototxt`, `age_net.caffemodel`
+     - **Files**: [age_deploy.prototxt](insert_drive_link_here), [age_net.caffemodel](insert_drive_link_here)
      - **Description**: Pre-trained deep learning model for age estimation.
    - Gender Estimation Model:
-     - **Files**: `gender_deploy.prototxt`, `gender_net.caffemodel`
+     - **Files**: [gender_deploy.prototxt](insert_drive_link_here), [gender_net.caffemodel](insert_drive_link_here)
      - **Description**: Pre-trained deep learning model for gender estimation.
+
+### Sharing Data
+You can access the pre-trained models from Google Drive. Click on the following links to download the required files:
+- [Face Detection Model](insert_drive_link_here)
+- [Age Estimation Model](insert_drive_link_here)
+- [Gender Estimation Model](insert_drive_link_here)
 
 ### Functionality
 1. **Face Detection and Highlighting**:
@@ -41,7 +47,7 @@ This Python script is designed to detect faces in images or via live webcam feed
 
 ### Running the Script
 1. Ensure that the required libraries are installed, especially OpenCV (`opencv-python`).
-2. Download the pre-trained models (face detection, age estimation, and gender estimation) and place them in the same directory as the script.
+2. Download the pre-trained models from the provided Google Drive links and place them in the same directory as the script.
 3. Run the script with appropriate command-line arguments:
    ```
    python script_name.py --image path/to/input_image.jpg
